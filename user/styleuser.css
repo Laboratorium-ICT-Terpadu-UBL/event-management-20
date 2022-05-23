@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+* {
+    font-family: Quicksand;
+}
+
+li{
+    list-style: none;
+}
+
+.uhero-user{
+    width: 1440px;
+    height: 800px;
+}
+
+.h1-u{
+    position: absolute;
+    top: 80px;
+    margin-left: 160px;
+}
+
+.hero-user{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 160px;
+    font-size: 45px;
+}
+
+.hero-text{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 160px;
+    font-size: 30px;
+}
+
+.illu1{
+    position: absolute;
+    margin-top: 140px;
+    right: 0;
+    z-index: 2;
+}
+
+.blob2{
+    position: absolute;
+    margin-top: 50px;
+    top: 80px;
+    right: 0;
+    z-index: 0;
+}
+
+.blob1{
+    position: absolute;
+    margin-top: 50px;
+    top: 160px;
+    right: 0;
+    z-index: 1;
+}
+
+.scroll1{
+    position: absolute;
+    margin: auto 160px;
+    top: 450px;
+    width: 200px;
+    display: block;
+    padding: 10px 0;
+    background: #45D12F;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 70px;
+    border-color: transparent;
+}
+
+.acara{
+    padding: 0px 0px 160px 160px;
+    float: left;
+}
+
+/*CSS Untuk Detail Acara*/
+.dhero-user{
+    width: 1440px;
+    height: 1200px;
+}
+
+.h2-2{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 160px;
+    font-size: 40px;
+}
+
+.img{
+    border-radius: 10%;
+    box-shadow: 0.5px 0.5px 0px 0px rgb(75, 75, 75);
+}
+
+.imgd{
+    position: absolute;
+    border-radius: 50px;
+    width: 480px;
+    height: 240px;
+    margin-left: 160px;
+    margin-top: 310px;
+    object-fit: cover;
+}
+
+.nama{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 310px;
+    font-size: 37px;
+}
+
+.kat{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 360px;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: #4233ff;
+    border-radius: 5px;
+}
+
+.hrg{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 420px;
+    font-size: 30px;
+    color: green;
+}
+
+
+.booking{
+    position: absolute;
+    width: 720px;
+    height: 45px;
+    margin-left: 780px;
+    margin-top: 500px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: #0d2851;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.tgl{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 600px;
+}
+
+.desc{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 700px;
+}
+
+.almt{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 600px;
+}
+
+.tglb{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 700px;
+}
+
+.jamm{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 800px;
+}
+
+.bar{
+    position: absolute;
+    width: 1440px;
+    height: 5px;
+    margin-left: 160px;
+    margin-top: 300px;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.bar2{
+    position: absolute;
+    width: 1440px;
+    height: 5px;
+    margin-left: 160px;
+    margin-top: 570px;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.herod-text{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 160px;
+    font-size: 30px;
+}
+
+.herod-user{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 160px;
+    font-size: 45px;
+}
+
+/*Css Booking*/
+.bar3{
+    position: absolute;
+    width: 1440px;
+    height: 5px;
+    margin-left: 160px;
+    margin-top: 90px;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.imgb{
+    position: absolute;
+    border-radius: 50px;
+    width: 600px;
+    height: 360px;
+    margin-left: 160px;
+    margin-top: 120px;
+    object-fit: cover;
+}
+
+.namab{
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 120px;
+    font-size: 37px;
+}
+
+.tglB{
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 200px;
+}
+
+.descb{
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 300px;
+}
+
+.hrgb{
+    position: absolute;
+    margin-left: 1090px;
+    margin-top: 200px;
+}
+
+.textbkng{
+    position: absolute;
+    height: 360px;
+    margin-left: -900px;
+    margin-top: 250px;
+}
+
+.form-group1{
+    position: absolute;
+    height: 360px;
+    margin-left: -900px;
+    margin-top: 290px;
+}
+
+.form-group2{
+    position: absolute;
+    height: 360px;
+    margin-left: -900px;
+    margin-top: 360px;
+}
+
+.form-group3{
+    position: absolute;
+    height: 360px;
+    margin-left: -900px;
+    margin-top: 430px;
+}
+
+.h2-3{
+    position: absolute;
+    margin: 600px 0px 0px 0px;
+}
+
+.btnb{
+    position: absolute;
+    width: 200px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #0d2851;
+    border-radius: 5px;
+    border-color: transparent;
+    position: absolute;
+    height: 40px;
+    margin-left: -900px;
+    margin-top: 500px;
+}

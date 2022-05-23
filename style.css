@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+*{
+    font-family: Quicksand;
+}
+
+body{
+	font-family: "Quicksand";
+	background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.form-box{
+	width: 500px;
+	background: #fff;
+	margin: 180px 160px 0px 0px;
+	padding: 50px 0;
+    color: rgb(0, 0, 0);
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+    float: right;
+    border-radius: 7%;
+}
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.input-box{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.fa{
+    margin-right: 10px;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display:none;
+}
+
+.tombol_login{
+	margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+.illu1{
+    margin: 110px 10px 20px 160px;
+}
+
+.desc-log{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin: auto;
+}
+
+.reg-log{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin: auto 160px 0px;
+}
+
+.container-regis{
+    width: 500px;
+	background: #fff;
+	margin: 160px 160px;
+	padding: 50px 10px 0px 0px;
+    color: rgb(0, 0, 0);
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+    float: right;
+    border-radius: 5%;
+}
+
+.form-group{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+.daft-text{
+    text-align: center;
+}
+
+.btn-regis{
+    margin: 20px auto;
+    width: 200px;
+    display: block;
+    outline: transparent;
+    padding: 10px 0;
+    cursor: pointer;
+    background: #45D12F;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 70px;
+    border-color: transparent;
+}
+
